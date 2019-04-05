@@ -33,4 +33,19 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //http拦截器
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+//Gson解析
+    implementation 'com.google.code.gson:gson:2.8.1'
+//recyclerVie
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+//Banner
+    implementation 'com.youth.banner:banner:1.4.9'
+//Glide缓存
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.github.bumptech.glide:annotations:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+//圆形图
+    implementation 'com.makeramen:roundedimageview:2.2.1'
 }
